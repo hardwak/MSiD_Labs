@@ -16,7 +16,7 @@ y = np.exp(-x**2)
 y_err = np.random.normal(loc=np.mean(y), scale=0.1, size=len(y))
 
 # Zaznaczamy x, y oraz obszar szumu wokół funkcji
-ax[0].plot(x,y)
+ax[0].plot(x,y, marker="o", label="exp(-x^2)")
 ax[0].fill_between(x, y - y_err, y + y_err, alpha=0.2, label="+/- szum")
 
 # Dodajemy oznaczenia osi i legendę na górze po lewej stronie
@@ -43,7 +43,7 @@ ax[1].grid(True, which='both', linestyle='-', linewidth=0.5)
 # Dodajemy oznaczenia osi i legendę na dole po prawej stronie
 ax[1].set_xlabel("x")
 ax[1].set_ylabel("y")
-ax[1].legend(loc="upper left")
+ax[1].legend(loc="right")
 
 # Dodajemy tytuł
 plt.suptitle("Funkcje wygenerowane w 'numpy' i wykreślone w 'matplotlib'")
