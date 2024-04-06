@@ -51,7 +51,15 @@ def get_polynomial_form(polynomial_degree: int) -> np.ndarray:
 
 def print_polynomial(theta: np.ndarray, precission: int = 3) -> str:
     """Return string representation of polynomial."""
-    ...
+    polynomial = ""
+    for i in range(theta.size):
+        polynomial += format(theta[i][0], f'.{precission}f')
+        while polynomial.endswith('0') and polynomial[-2] != '.':
+            polynomial = polynomial[:-1]
+        polynomial += f"*x^{i}"
+        if i != theta.size - 1:
+            polynomial += " + "
+    return polynomial
 
 
 def least_squares_solution(X: np.ndarray, Y: np.ndarray, polynomial_degree: int) -> np.ndarray:
