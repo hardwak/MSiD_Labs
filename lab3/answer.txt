@@ -1,0 +1,3 @@
+Najoptymalnymi modelami estymacji parametru byly te funkcje, ktore maja stopien 2, 3 lub 4.
+Stopnie 0 oraz 1 nie potrafia pokazać przykladowej funkcji dla danych ze wzgledu na niezrozumiala reprezentacje na wykresie.
+Przy wykorzystaniu stopni wyzszych niz 4, wykres na koncu przyjmuje ksztalt "iglicy", co nie odpowiada srednim danym z wykresu.
