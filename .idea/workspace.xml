@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94b47531-9f8d-4367-8e7c-578fe8d36c8e" name="Changes" comment="Finished Lab 2, matrix determinant with tests">
+    <list default="true" id="94b47531-9f8d-4367-8e7c-578fe8d36c8e" name="Changes" comment="finished lab 3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab2_matrix/2_obsluga_danych_i_obliczen.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/lab2_matrix/2_obsluga_danych_i_obliczen.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/3_metoda_najmniejszych_kwadratow.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/3_metoda_najmniejszych_kwadratow.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/lss.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/lss.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,29 +30,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python tests.Python tests for task.test_get_minor_matrix.executor": "Run",
-    "Python tests.Python tests for task.test_is_matrix_square.executor": "Run",
-    "Python tests.Python tests for task.test_matrix_determinant_correct.executor": "Run",
-    "Python tests.Python tests for task.test_matrix_determinant_incorrect.executor": "Run",
-    "Python tests.Python tests for test_lss.test_least_squares_solution.executor": "Run",
-    "Python tests.Python tests for test_lss.test_polynomial_form.executor": "Run",
-    "Python tests.Python tests in task.py.executor": "Run",
-    "Python.lss.executor": "Run",
-    "Python.plotting_figure.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests for task.test_get_minor_matrix.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for task.test_is_matrix_square.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for task.test_matrix_determinant_correct.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for task.test_matrix_determinant_incorrect.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_lss.test_least_squares_solution.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_lss.test_polynomial_form.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_lss.test_print_polynomial.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in task.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lss.executor&quot;: &quot;Run&quot;,
+    &quot;Python.plotting_figure.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Study\Programming\Python\MSiD_Labs" />
@@ -78,22 +81,6 @@
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for task.test_matrix_determinant_correct" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="MSiD_Labs" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab2_matrix" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;task.test_matrix_determinant_correct&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="Python tests for task.test_matrix_determinant_incorrect" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
@@ -144,13 +131,29 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for test_lss.test_print_polynomial" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="MSiD_Labs" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_lss.test_print_polynomial&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.lss" />
         <item itemvalue="Python tests.Python tests for test_lss.test_least_squares_solution" />
         <item itemvalue="Python tests.Python tests for test_lss.test_polynomial_form" />
+        <item itemvalue="Python tests.Python tests for test_lss.test_print_polynomial" />
         <item itemvalue="Python tests.Python tests for task.test_matrix_determinant_incorrect" />
-        <item itemvalue="Python tests.Python tests for task.test_matrix_determinant_correct" />
       </list>
     </recent_temporary>
   </component>
@@ -177,7 +180,12 @@
       <workItem from="1711190042088" duration="2690000" />
       <workItem from="1711281356196" duration="51000" />
       <workItem from="1711441099907" duration="1459000" />
-      <workItem from="1712401779230" duration="5929000" />
+      <workItem from="1712401779230" duration="9299000" />
+      <workItem from="1712567119084" duration="1871000" />
+      <workItem from="1712645348884" duration="3772000" />
+      <workItem from="1713193523323" duration="539000" />
+      <workItem from="1713298405449" duration="664000" />
+      <workItem from="1713620130913" duration="22000" />
     </task>
     <task id="LOCAL-00001" summary="Created file that draws 2 plots with different functions">
       <option name="closed" value="true" />
@@ -195,7 +203,31 @@
       <option name="project" value="LOCAL" />
       <updated>1711191880409</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Started lab3, analytical algorithm for estimation&#10;parameters of the linear model">
+      <option name="closed" value="true" />
+      <created>1712428186630</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1712428186630</updated>
+    </task>
+    <task id="LOCAL-00004" summary="added implementation for print_polynomial">
+      <option name="closed" value="true" />
+      <created>1712430556036</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1712430556036</updated>
+    </task>
+    <task id="LOCAL-00005" summary="finished lab 3">
+      <option name="closed" value="true" />
+      <created>1712568438544</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1712568438544</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,11 +236,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Created file that draws 2 plots with different functions" />
     <MESSAGE value="Finished Lab 2, matrix determinant with tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished Lab 2, matrix determinant with tests" />
+    <MESSAGE value="Started lab3, analytical algorithm for estimation&#10;parameters of the linear model" />
+    <MESSAGE value="added implementation for print_polynomial" />
+    <MESSAGE value="finished lab 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished lab 3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/MSiD_Labs$lss.coverage" NAME="lss Coverage Results" MODIFIED="1712427942189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab3" />
+    <SUITE FILE_PATH="coverage/MSiD_Labs$lss.coverage" NAME="lss Coverage Results" MODIFIED="1712568054319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab3" />
     <SUITE FILE_PATH="coverage/MSiD_Labs$plotting_figure.coverage" NAME="plotting_figure Coverage Results" MODIFIED="1710234191208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab1_matplotlib" />
-    <SUITE FILE_PATH="coverage/MSiD_Labs$.coverage" NAME=" Coverage Results" MODIFIED="1712427902793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab3" />
+    <SUITE FILE_PATH="coverage/MSiD_Labs$.coverage" NAME=" Coverage Results" MODIFIED="1712567993746" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab3" />
   </component>
 </project>

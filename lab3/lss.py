@@ -81,7 +81,7 @@ def least_squares_solution(X: np.ndarray, Y: np.ndarray, polynomial_degree: int)
     theta = np.linalg.inv(X_poly.T @ X_poly) @ X_poly.T @ Y
     #
     # for i in range(0, polynomial_degree + 1):
-    #     theta[i] = theta = np.linalg.inv(X.T @ X) @ X.T @ Y
+    #     theta[i] = np.linalg.inv(X.T @ X) @ X.T @ Y
 
     return theta.reshape(-1, 1)
 
