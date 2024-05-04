@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94b47531-9f8d-4367-8e7c-578fe8d36c8e" name="Changes" comment="finished lab 3">
+    <list default="true" id="94b47531-9f8d-4367-8e7c-578fe8d36c8e" name="Changes" comment="moved task.pdf to proper place">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab2_matrix/2_obsluga_danych_i_obliczen.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/lab2_matrix/2_obsluga_danych_i_obliczen.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/3_metoda_najmniejszych_kwadratow.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/3_metoda_najmniejszych_kwadratow.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/lss.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/lss.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4/4_klasyfikacja.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/4_klasyfikacja.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,37 +28,55 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python tests.Python tests for task.test_get_minor_matrix.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for task.test_is_matrix_square.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for task.test_matrix_determinant_correct.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for task.test_matrix_determinant_incorrect.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_lss.test_least_squares_solution.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_lss.test_polynomial_form.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_lss.test_print_polynomial.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in task.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lss.executor&quot;: &quot;Run&quot;,
-    &quot;Python.plotting_figure.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python tests.Python tests for task.test_get_minor_matrix.executor": "Run",
+    "Python tests.Python tests for task.test_is_matrix_square.executor": "Run",
+    "Python tests.Python tests for task.test_matrix_determinant_correct.executor": "Run",
+    "Python tests.Python tests for task.test_matrix_determinant_incorrect.executor": "Run",
+    "Python tests.Python tests for test_classification.test_accuracy_score.executor": "Run",
+    "Python tests.Python tests for test_classification.test_cm_incorrect_prediction_classes.executor": "Run",
+    "Python tests.Python tests for test_classification.test_cm_incorrect_shapes.executor": "Run",
+    "Python tests.Python tests for test_classification.test_confusion_matrix.executor": "Run",
+    "Python tests.Python tests for test_classification.test_get_f1_score.executor": "Run",
+    "Python tests.Python tests for test_classification.test_get_quality_factors.executor": "Run",
+    "Python tests.Python tests for test_classification.test_precision_score.executor": "Run",
+    "Python tests.Python tests for test_classification.test_recall_score.executor": "Run",
+    "Python tests.Python tests for test_lss.test_least_squares_solution.executor": "Run",
+    "Python tests.Python tests for test_lss.test_polynomial_form.executor": "Run",
+    "Python tests.Python tests for test_lss.test_print_polynomial.executor": "Run",
+    "Python tests.Python tests for test_optimisation_problem.test_constr_filler.executor": "Run",
+    "Python tests.Python tests for test_optimisation_problem.test_constr_flesh.executor": "Run",
+    "Python tests.Python tests for test_optimisation_problem.test_constr_x_2.executor": "Run",
+    "Python tests.Python tests for test_optimisation_problem.test_income.executor": "Run",
+    "Python tests.Python tests in task.py.executor": "Run",
+    "Python tests.Python tests in test_classification.py.executor": "Run",
+    "Python tests.Python tests in test_optimisation_problem.py.executor": "Run",
+    "Python.classification.executor": "Run",
+    "Python.lss.executor": "Run",
+    "Python.optimisation_problem.executor": "Run",
+    "Python.plotting_figure.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Study\Programming\Python\MSiD_Labs\lab5" />
+      <recent name="C:\Study\Programming\Python\MSiD_Labs\lab4" />
       <recent name="C:\Study\Programming\Python\MSiD_Labs" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.lss">
-    <configuration name="lss" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager">
+    <configuration name="optimisation_problem" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MSiD_Labs" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -69,12 +85,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab5" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab3/lss.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab5/optimisation_problem.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -83,77 +99,77 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for task.test_matrix_determinant_incorrect" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_optimisation_problem.test_constr_filler" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="MSiD_Labs" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab2_matrix" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab5" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;task.test_matrix_determinant_incorrect&quot;" />
+      <option name="_new_target" value="&quot;test_optimisation_problem.test_constr_filler&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_lss.test_least_squares_solution" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_optimisation_problem.test_constr_flesh" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="MSiD_Labs" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab5" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_lss.test_least_squares_solution&quot;" />
+      <option name="_new_target" value="&quot;test_optimisation_problem.test_constr_flesh&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_lss.test_polynomial_form" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_optimisation_problem.test_constr_x_2" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="MSiD_Labs" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab5" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_lss.test_polynomial_form&quot;" />
+      <option name="_new_target" value="&quot;test_optimisation_problem.test_constr_x_2&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_lss.test_print_polynomial" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_optimisation_problem.test_income" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="MSiD_Labs" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab5" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_lss.test_print_polynomial&quot;" />
+      <option name="_new_target" value="&quot;test_optimisation_problem.test_income&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.lss" />
-        <item itemvalue="Python tests.Python tests for test_lss.test_least_squares_solution" />
-        <item itemvalue="Python tests.Python tests for test_lss.test_polynomial_form" />
-        <item itemvalue="Python tests.Python tests for test_lss.test_print_polynomial" />
-        <item itemvalue="Python tests.Python tests for task.test_matrix_determinant_incorrect" />
+        <item itemvalue="Python tests.Python tests for test_optimisation_problem.test_constr_filler" />
+        <item itemvalue="Python tests.Python tests for test_optimisation_problem.test_constr_flesh" />
+        <item itemvalue="Python tests.Python tests for test_optimisation_problem.test_income" />
+        <item itemvalue="Python tests.Python tests for test_optimisation_problem.test_constr_x_2" />
+        <item itemvalue="Python.optimisation_problem" />
       </list>
     </recent_temporary>
   </component>
@@ -186,6 +202,11 @@
       <workItem from="1713193523323" duration="539000" />
       <workItem from="1713298405449" duration="664000" />
       <workItem from="1713620130913" duration="22000" />
+      <workItem from="1713725784655" duration="7759000" />
+      <workItem from="1713788305321" duration="17000" />
+      <workItem from="1713857625424" duration="921000" />
+      <workItem from="1714735290838" duration="1480000" />
+      <workItem from="1714827251529" duration="1542000" />
     </task>
     <task id="LOCAL-00001" summary="Created file that draws 2 plots with different functions">
       <option name="closed" value="true" />
@@ -227,7 +248,23 @@
       <option name="project" value="LOCAL" />
       <updated>1712568438544</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="finished lab 4, confusion matrix">
+      <option name="closed" value="true" />
+      <created>1713782318047</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1713782318047</updated>
+    </task>
+    <task id="LOCAL-00007" summary="moved task.pdf to proper place">
+      <option name="closed" value="true" />
+      <created>1713782351973</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1713782351973</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -239,11 +276,15 @@
     <MESSAGE value="Started lab3, analytical algorithm for estimation&#10;parameters of the linear model" />
     <MESSAGE value="added implementation for print_polynomial" />
     <MESSAGE value="finished lab 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished lab 3" />
+    <MESSAGE value="finished lab 4, confusion matrix" />
+    <MESSAGE value="moved task.pdf to proper place" />
+    <option name="LAST_COMMIT_MESSAGE" value="moved task.pdf to proper place" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/MSiD_Labs$lss.coverage" NAME="lss Coverage Results" MODIFIED="1712568054319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab3" />
     <SUITE FILE_PATH="coverage/MSiD_Labs$plotting_figure.coverage" NAME="plotting_figure Coverage Results" MODIFIED="1710234191208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab1_matplotlib" />
-    <SUITE FILE_PATH="coverage/MSiD_Labs$.coverage" NAME=" Coverage Results" MODIFIED="1712567993746" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab3" />
+    <SUITE FILE_PATH="coverage/MSiD_Labs$classification.coverage" NAME="classification Coverage Results" MODIFIED="1713781997452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab4" />
+    <SUITE FILE_PATH="coverage/MSiD_Labs$.coverage" NAME=" Coverage Results" MODIFIED="1714829038873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab5" />
+    <SUITE FILE_PATH="coverage/MSiD_Labs$optimisation_problem.coverage" NAME="optimisation_problem Coverage Results" MODIFIED="1714829033228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab5" />
   </component>
 </project>
